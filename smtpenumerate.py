@@ -3,7 +3,7 @@ import sys
 import socket
  
 if(len(sys.argv) < 3):
-        print("usage: SMTPenumerator.py userlist IP")
+        print("usage: smtpenumerate.py userlist IP")
         sys.exit()
  
 wordFile = open(sys.argv[1], "r")
